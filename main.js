@@ -1,10 +1,9 @@
-let edad = parseInt(prompt("¿Cuántos años tenés"));
+document.getElementById("formulario").addEventListener("submit", (e) => {
+    e.preventDefault();
+    let edad = parseInt(document.getElementById("edad").value);
+    let precio; 
 
-if (isNaN(edad)) {
-    document.getElementById("resultado").textContent = "Por favor, ingresá un número válido";
-} else {
-    let precio;
-} if (edad < 13) {
+if (edad < 13) {
     precio = 500;
 }else if (edad <= 64){
     precio = 1000
@@ -13,4 +12,13 @@ if (isNaN(edad)) {
 }
 
 document.getElementById("resultado").textContent = "Tu entrada cuesta: $" + precio; 
+
+})
+
+
+
+
+
+
+
 
