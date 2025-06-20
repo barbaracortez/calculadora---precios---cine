@@ -1,15 +1,15 @@
 document.getElementById("formulario").addEventListener("submit", (e) => {
   e.preventDefault();
 
-  let edadInput = document.getElementById("edad").value;
-  let resultado = document.getElementById("resultado");
+  const edadInput = document.getElementById("edad").value;
+  const resultado = document.getElementById("resultado");
 
   if (!edadInput || isNaN(edadInput)) {
     resultado.textContent = "Por favor, ingresá una edad válida.";
     return;
   }
 
-  let edad = parseInt(edadInput);
+  const edad = parseInt(edadInput);
   let precio;
 
   if (edad < 13) {
