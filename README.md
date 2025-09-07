@@ -2,11 +2,11 @@
 
 🌐 Live Demo
 
-Ver aplicación en línea
+https://barbaracortez.github.io/calculadora---precios---cine/
 
 📂 Repositorio
 
-GitHub
+https://github.com/barbaracortez/calculadora---precios---cine
 
 🎯 Objetivos de aprendizaje
 
@@ -53,14 +53,6 @@ cd calculadora---precios---cine
 
 
 Abrir el archivo index.html en un navegador web.
-
-💡 Mejoras futuras
-
-Soporte para varias entradas y cálculo del total.
-
-Animaciones al mostrar el resultado.
-
-Estilo más atractivo e interactivo.
 
 📸 Capturas de pantalla
 <img width="733" height="664" alt="image" src="https://github.com/user-attachments/assets/5a415ce7-d297-418a-a7f0-bb3f1848fdd3" />
